@@ -1,0 +1,18 @@
+.repositories {
+    overflow: auto;
+    max-height: 80%;
+    height: 100%;
+    &__item {
+        margin-top: 16px;
+    }
+}
+
+.empty {
+    font-weight: 900;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding-top: 32px;
+}

@@ -1,0 +1,16 @@
+dist
+public
+node_modules
+.husky
+.git
+.eslintrc.yml
+package.json
+package-lock.json
+config
+src/assets
+src/**/*.scss
+scripts
+tsconfig.json
+README.md
+src/**/*.test.*
+src/**/*.json

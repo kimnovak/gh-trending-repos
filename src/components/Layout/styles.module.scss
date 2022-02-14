@@ -1,0 +1,37 @@
+$headerHeight: 92px;
+$footerHeight: 40px;
+
+.header {
+    background-color: #161b22;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    &__item {
+        display: flex;
+        align-items: center;
+        color: #fff;
+    }
+    &__logo {
+        height: 60px;
+        width: 60px;
+    }
+    &__title {
+        margin-left: 20px;
+        font-size: 2rem;
+    }
+}
+
+.main {
+    background-color: #484f58;
+    min-height: calc(100vh - $headerHeight - $footerHeight);
+    height: 100%;
+}
+
+.footer {
+    height: $footerHeight;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #484f58;
+    background-color: #161b22;
+}
